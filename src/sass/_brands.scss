@@ -1,0 +1,23 @@
+.brands {
+	list-style: none;
+	font-size: 2rem;
+	padding: 2rem;
+}
+
+.brands_item {
+	display: inline-block;
+	background: rgba(gold, 0.1);
+	margin: 0.2rem;
+	padding: 1rem;
+
+	img,
+	span {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	img {
+		max-width: 24px;
+		max-height: 24px;
+	}
+}

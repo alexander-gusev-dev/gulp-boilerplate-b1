@@ -1,0 +1,40 @@
+@mixin clr {
+	&:after {
+		content:"";
+		display: block;
+		clear: both;
+	}
+}
+
+@mixin middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin cover {
+	width:  100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+	font-family: 'object-fit: cover; object-position: 50% 50%;';
+}
+
+@mixin contain {
+	width:  100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: 50% 50%;
+	font-family: 'object-fit: contain; object-position: 50% 50%;';
+}
+
+
+$open: 'Open Sans', sans-serif;
+$pt: 'PT Sans Caption', sans-serif;
+
+$easing: cubic-bezier(1.000, 0.000, 0.000, 1.000);
+$blue: #82BFF0;
+$darkenblue: #4d9fe2;
+$darkblue: #303644;
+$green: #7ED321;

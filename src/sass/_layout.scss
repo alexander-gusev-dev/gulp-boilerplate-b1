@@ -1,0 +1,35 @@
+section, header, footer {
+	display: block;
+}
+
+html, body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 62.5%;
+}
+
+body {
+	cursor: default;
+	font-family: sans-serif;
+	line-height: 1.4;
+}
+
+* {
+	-webkit-text-size-adjust: none;
+}
+
+
+main {
+	font-size: 2rem;
+	padding: 2rem;
+
+	header {
+		font-size: 4rem;
+		padding-bottom: 3rem;
+	}
+}
+
+[disabled] {
+	pointer-events: none;
+	opacity: 0.5;
+}
